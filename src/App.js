@@ -1,11 +1,14 @@
-import DemoComponent from "./DemoComponent";
+import Header from "./components/Header";
+import Home from "./components/Home";
 
+import DemoComponent from "./DemoComponent";
 
 function App() {
   return (
-    <div>
-   <DemoComponent />
-    </div>
+    <>
+      <Header />
+      <Home />
+    </>
   );
 }
 
